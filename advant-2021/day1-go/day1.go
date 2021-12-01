@@ -34,7 +34,7 @@ func main() {
 	var i int
 	increases := 0
 	for i < len(numInputs)-1 {
-		if numInputs[i] < numInputs[i+1]{
+		if numInputs[i] < numInputs[i+1] {
 			increases++
 		}
 		i++
@@ -43,7 +43,7 @@ func main() {
 	i = 0
 	increases = 0
 	for i < len(numInputs)-3 {
-		if numInputs[i] + numInputs[i+1] + numInputs[i+2] < numInputs[i+1] + numInputs[i+2] + numInputs[i+3]{
+		if numInputs[i]+numInputs[i+1]+numInputs[i+2] < numInputs[i+1]+numInputs[i+2]+numInputs[i+3] {
 			increases++
 		}
 		i++
