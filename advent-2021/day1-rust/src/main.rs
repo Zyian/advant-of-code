@@ -1,3 +1,6 @@
+use std::fs;
+
 fn main() {
-    println!("Hello, world!");
+    let x = fs::read_to_string("input.txt").expect("could not finish");
+    println!("{}", x);
 }
